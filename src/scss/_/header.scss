@@ -1,0 +1,23 @@
+.header {
+	background-color: $color1;
+	color: $white;
+	display: grid;
+	grid-template-columns: 50px 100px auto;
+	align-items: center;
+	align-content: center;
+
+	h2 {
+		font-size: 1em;
+	}
+
+	nav {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+
+		a {
+			text-decoration: none;
+			color: $white;
+			font-size: 0.9em;
+		}
+	}
+}
