@@ -2,7 +2,5 @@
 @import "_/base";
 @import "_/header";
 @import "_/footer";
-
-.App {
-	text-align: center;
-}
+@import "joke";
+@import "todo";

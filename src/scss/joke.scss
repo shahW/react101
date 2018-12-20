@@ -1,0 +1,16 @@
+.joke {
+	border-bottom: 1px dashed $color2;
+	padding: 2em;
+	h4,
+	h2 {
+		text-align: left;
+		margin-top: 0;
+		margin-bottom: 0.5em;
+	}
+}
+.noQ {
+	color: lighten($black, 50%);
+}
+.blank {
+	display: none;
+}

@@ -1,0 +1,17 @@
+.todo-item {
+	padding: 2em;
+	display: flex;
+	text-align: left;
+	align-items: center;
+	border-bottom: 1px solid #000;
+
+	label {
+		font-size: 1.2em;
+		display: block;
+		cursor: pointer;
+	}
+
+	input[type="checkbox"] {
+		margin-right: 10px;
+	}
+}
